@@ -29,24 +29,36 @@
         private void InitializeComponent()
         {
             this.lblOutput = new System.Windows.Forms.Label();
+            this.lblContactNumber = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblOutput
             // 
             this.lblOutput.AutoSize = true;
             this.lblOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOutput.Location = new System.Drawing.Point(171, 226);
+            this.lblOutput.Location = new System.Drawing.Point(173, 161);
             this.lblOutput.Name = "lblOutput";
             this.lblOutput.Size = new System.Drawing.Size(499, 31);
             this.lblOutput.TabIndex = 0;
             this.lblOutput.Text = "Student Profile - Github Beginner Lab";
             this.lblOutput.Click += new System.EventHandler(this.lblOutput_Click);
             // 
+            // lblContactNumber
+            // 
+            this.lblContactNumber.AutoSize = true;
+            this.lblContactNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContactNumber.Location = new System.Drawing.Point(198, 220);
+            this.lblContactNumber.Name = "lblContactNumber";
+            this.lblContactNumber.Size = new System.Drawing.Size(419, 31);
+            this.lblContactNumber.TabIndex = 1;
+            this.lblContactNumber.Text = "Contact Number: 09772862969";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblContactNumber);
             this.Controls.Add(this.lblOutput);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -58,6 +70,7 @@
         #endregion
 
         private System.Windows.Forms.Label lblOutput;
+        private System.Windows.Forms.Label lblContactNumber;
     }
 }
 
