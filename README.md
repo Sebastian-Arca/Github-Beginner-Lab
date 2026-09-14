@@ -1,2 +1,2 @@
-# Github-Begginer-Lab
+# Github-Beginner-Lab
 Beginner laboratory exercise for GitHub and Kanban
